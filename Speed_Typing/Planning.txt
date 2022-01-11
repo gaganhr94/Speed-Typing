@@ -1,0 +1,49 @@
+SPEED TRAINER DEVELOPMENT
+
+    #ESSENTIAL TASKS
+    1. Display Words per minute (NET)
+    2. Display Accuracy
+    3. Make codes of Word Practice and Letter Practice Proper
+
+
+    #NEW TASKS IN HAND
+    1.Databases
+    2.Try Again Button
+    3.Continuous Word Practice / Letter Practice
+    4.Adding detailed  report to all parts of the project
+    5.Fix time limit to 60 seconds - Final part of the project
+    6.Beautification with background color and foreground color
+    7.Addition of Comments to the program
+    8.Develop word practice for 2 letters and 1 letter - DONE
+    9.Also try to develop strings which have random number of strings for letter practice
+    10.Try adding message boxes to the Exit of the Application
+    11.Research on binding the buttons to the keyboard shortcuts
+    12.Inserting splash screen to display application logo and project developers
+
+
+    STAGE 2 ANALYSIS:
+    1.Databases
+    10.Try adding message boxes to the Exit of the Application - LAST
+    11.Research on binding the buttons to the keyboard shortcuts
+    12.Inserting splash screen to display application logo and project developers
+
+    *** PRIORITY: ***
+    1. SPLASH SCREEN
+    2. DATABASE INTEGRATION INTO THE PROJECT - DOES NOT INTEGRATE THE TRAINER PART
+    IT ONLY IS CONCERNED WITH THE SPEED TESTING PART
+
+
+
+SPEED TESTING DEVELOPMENT
+
+    1. Improve on the WPM formula - Display both Gross and Net Speed
+    2. Design the window properly
+    3. Have a set of thirty 3 liners which are suitably apt for the text field. - Later stage (Check)
+    4. Have a shortcut key to try again and start typing
+    5. Insert effective messageboxes - while quitting, during some error by the user
+    6. Reduce Accuracy for speed display
+
+
+
+
+
