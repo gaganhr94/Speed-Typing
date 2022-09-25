@@ -1,0 +1,25 @@
+Speed Typing is an application that aims to improve and advance an age-old skill - typing - to its absolute limit. 
+In today's world, where computers are so integral to our lives, typing at a brisk pace is remarkably dexterous.
+This can help individuals accomplish their daily tasks with ease. Furthermore, it is considered a huge advantage in workplaces where the services are all computer-based.
+The project aims to improve the speed of typing of the users in a systematic way.
+This project attempts to satisfy the curiosity of users, who may be interested in knowing the rate of their typing, and thus this project is also beneficial for recreational purposes.
+Accuracy is a vital component of every task.
+It is also essential that users tap the right keys in addition to typing fast.
+The Speed Trainer application develops these skills using a structured and organised approach. 
+Many scientific studies have found that the brain is very sensitive to mistakes and it produces a specific type of electrical activity when we make errors. 
+It is essential that the errors are displayed to the user after every practice session. Once the user gets to know the mistakes committed, practising is a vital part of the learning process. 
+The application provides the user with several features with which the accuracy of typing can be augmented.  
+It allows the user to continuously monitor mistakes, enabling him or her to practice with new, personalised sets of words as a result of mistakes made by the user.
+Additionally, the application has a login feature for users. 
+A new user is informed about the features of the application, and how to make best use of them. An existing user is given a greeting message. 
+From professional typists who desire to have maximum typing speed to newbies who want to know their typing speed out of curiosity, this application caters to the needs and requirements of all types of users. The application trains people who need to take up typing professionally(jobs) as these professions have a benchmark set for typing speeds. 
+The project focuses on muscle memory of fingers. 
+When you learn a new movement, your brain creates a memory of the pieces that make up that movement and stores it in your cerebellum. 
+Scientists call this motor learning. Committing typing to muscle memory frees you from devoting mental energy to thinking about each letter as the user types it. 
+Users will be able to focus on the content of what he or she is typing rather than looking for the next key to press.
+The project has also been focused on maintaining a standardised rule to calculate the words per minute. As per the accepted standards globally for speed typing, 5 characters is considered to be one word. This generalization helped the user to continuously compare his performances with his previous ones.
+The speed typing tester application tests and analyses the users’ typing speed and style. The user is provided with the accuracy, net and gross speeds of typing. The gross speed is the estimation of the user’s typing speed assuming the accuracy to be cent percent. The net speed is the original speed of the user.  
+The speed trainer application is designed in order to improve the user's typing speed and accuracy rate of typing. The user is given a set of words to type in a specific time span (60 seconds). The application continuously processes the entries of the user and matches it with the original generated series of words. It also analyses the pattern of mistakes made by the user and suggests keys/letters which the user has to improve, in order to boost the accuracy of typing along with the speed of typing. The application has customised practice sets based on the most frequency misclicked key. 
+Users are allowed to choose between letter practice- which completely focuses on the keys in which the user has made mistakes and word practice- which gives a set of words chosen based on the misclicked letters. 
+The words displayed to the user contain those letters in which the user has made frequent mistakes.
+
