@@ -1,7 +1,7 @@
 import sqlite3
 
 
-'''conn = sqlite3.connect('userhistory.db')
+'''conn = sqlite3.connect('../database/userhistory.db')
 c = conn.cursor()
 c.execute("""CREATE TABLE  users (
             name text,

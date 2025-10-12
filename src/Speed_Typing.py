@@ -28,7 +28,7 @@ def splashscreen():
     splash_root.geometry("600x455+382+132")
     splash_root.overrideredirect(True)      #Removes the title bar
     splash_root.after(3000,splash_root.destroy)
-    img=ImageTk.PhotoImage(Image.open("Splash.png"))
+    img=ImageTk.PhotoImage(Image.open("../assets/Splash.png"))
     frame1 = Frame(splash_root, highlightbackground="#2F50D4", highlightthickness=5,bg="white")
     frame1.pack()
     l1=Label(frame1,image=img,bg='white')
@@ -45,7 +45,7 @@ root.title('SPEED TYPING')
 root.geometry("600x455+382+132")
 
 # LOGO
-root.iconbitmap("TypingLOGO.ico")
+root.iconbitmap("../assets/TypingLOGO.ico")
 entered = StringVar()
 
 fscreen1=Frame(root,highlightbackground="#191970",highlightthickness=5,bg="lightblue")
@@ -61,7 +61,7 @@ def choice():
     window = Tk()   # Try to make a separate window
     window.geometry("575x475+380+100")
     window.title("SPEED TYPING - MAIN MENU")
-    window.iconbitmap("TypingLOGO.ico")
+    window.iconbitmap("../assets/TypingLOGO.ico")
 
     framewindow=Frame(window,highlightbackground="indigo", highlightthickness=5,bg="#5ba8ff")
     framewindow.pack()
@@ -104,10 +104,10 @@ def clicked():
     top =Tk()
     top.title("TYPING SPEED TEST")
     top.configure(bg="#D4F1F4")
-    top.iconbitmap("TypingLOGO.ico")
+    top.iconbitmap("../assets/TypingLOGO.ico")
     top.geometry("1300x590+35+50")
 
-    wordfile = open("Text_Lines.txt", "r")
+    wordfile = open("../data/Text_Lines.txt", "r")
     words = wordfile.readlines()
     wordfile.close()
 
@@ -293,6 +293,3 @@ exitbutton.pack(padx=20,pady=30,ipadx=30,ipady=25)
 
 
 root.mainloop()
-
-
-

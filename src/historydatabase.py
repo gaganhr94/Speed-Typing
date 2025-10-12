@@ -10,11 +10,11 @@ def main():
     cr = 0 # Count variable for displaying users
     datawindow = Tk()
     datawindow.title("USER LOGIN / REGISTER")
-    datawindow.iconbitmap("TypingLOGO.ico")
+    datawindow.iconbitmap("../assets/TypingLOGO.ico")
     datawindow.geometry("400x500+475+75")
     datawindow.configure(bg="#FFBF33")
 
-    conn = sqlite3.connect('userhistory.db')
+    conn = sqlite3.connect('../database/userhistory.db')
     c = conn.cursor()
 
     '''
@@ -54,7 +54,7 @@ def main():
 
         hellowindow=Tk()
         hellowindow.title("INTRODUCTION")
-        hellowindow.iconbitmap("TypingLOGO.ico")
+        hellowindow.iconbitmap("../assets/TypingLOGO.ico")
         hellowindow.geometry("630x500+370+100")
         hellolabel=Label(hellowindow,font=('bookman old style',20,'bold'),bg="white",fg="red")
         hellolabel.pack(pady=10,ipadx=10)
@@ -80,7 +80,7 @@ def main():
             else:
                 usernames = usernames[0:15]
 
-        conn = sqlite3.connect('userhistory.db')
+        conn = sqlite3.connect('../database/userhistory.db')
         c = conn.cursor()
         c.execute("SELECT *,oid FROM users")
         records=c.fetchall()
@@ -139,7 +139,7 @@ def main():
             else:
                 usernamestr = usernamestr[0:15]
 
-        conn = sqlite3.connect("userhistory.db")
+        conn = sqlite3.connect("../database/userhistory.db")
         c = conn.cursor()
 
         record_id = dele.get()
@@ -167,7 +167,7 @@ def main():
         except NameError:
             pass
 
-        conn = sqlite3.connect("userhistory.db")
+        conn = sqlite3.connect("../database/userhistory.db")
         c = conn.cursor()
         c.execute("SELECT *,oid FROM users")
         records = c.fetchall()
@@ -191,7 +191,7 @@ def main():
 
         editor = Tk()
         editor.title("EDIT USER DETAILS")
-        editor.iconbitmap("TypingLOGO.ico")
+        editor.iconbitmap("../assets/TypingLOGO.ico")
         editor.geometry("390x400+900+120")
         editor.configure(bg="#FFBF33")
 
@@ -199,7 +199,7 @@ def main():
             editor.withdraw()
 
         else:
-            conn = sqlite3.connect("userhistory.db")
+            conn = sqlite3.connect("../database/userhistory.db")
             c = conn.cursor()
 
             # Declaring name and username variables to store string variables
@@ -224,7 +224,7 @@ def main():
                 n_e.insert(0, record[0])
                 u_e.insert(0, record[1])
 
-            """  #Not Required   
+            """  #Not Required
             print_records = ''
             for record in records:
                 print_records += str(record[0] + "\t" + str(record[1]+ "\t"+ str(record[2]))) + '\n'
@@ -242,7 +242,7 @@ def main():
 
     # Delete a record
     def delete():
-        conn = sqlite3.connect("userhistory.db")
+        conn = sqlite3.connect("../database/userhistory.db")
         c = conn.cursor()
 
         try:
@@ -286,4 +286,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-

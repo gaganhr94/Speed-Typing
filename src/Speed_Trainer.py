@@ -38,7 +38,7 @@ finalkeys=[] # Stores the final error keys
 wintrain = Tk()
 wintrain.geometry('1100x650')
 wintrain.state('zoomed')
-wintrain.iconbitmap("TypingLOGO.ico")
+wintrain.iconbitmap("../assets/TypingLOGO.ico")
 wintrain.configure(bg='#000337')
 wintrain.title('SPEED TYPING TRAINER')
 
@@ -86,7 +86,7 @@ def sent():
     if check_letpractice == False and check_wordpractice == False:
         global words
         words = []
-        file = open("WordList.txt", "r")
+        file = open("../data/WordList.txt", "r")
         for word in file:
             words.append(word.strip())
 
@@ -576,8 +576,8 @@ def wordpractice():
     text.delete(1.0, END)
 
     a = finalkeys
-    file = open("WordList.txt", "r")
-    filex = open("WordList.txt", "r")
+    file = open("../data/WordList.txt", "r")
+    filex = open("../data/WordList.txt", "r")
     words = []
     if len(a)==3:
         for word in file:
@@ -624,7 +624,7 @@ def detailedreport():
     detailreport_text2=""
     report=Tk()
     report.geometry("548x600+400+50")
-    report.iconbitmap("TypingLOGO.ico")
+    report.iconbitmap("../assets/TypingLOGO.ico")
     report.configure(bg="lightblue")
     report.title("DETAILED REPORT")
 
@@ -654,5 +654,3 @@ wintrain.mainloop()
 
 #print(usermistake)
 #print(mistakewords)
-
-

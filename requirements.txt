@@ -1,0 +1,13 @@
+# Speed Typing Trainer Dependencies
+# Install with: pip install -r requirements.txt
+
+# Image processing for splash screen and icons
+Pillow>=8.0.0
+
+# Note: The following are included with Python standard library:
+# - tkinter (GUI framework)
+# - sqlite3 (database operations)
+# - difflib (text comparison for accuracy)
+# - timeit (performance timing)
+# - random (word selection)
+# - subprocess (process management)
